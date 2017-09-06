@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joy.components.MainActivity">
+
+    <com.joy.components.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:bar_title="@string/app_name"
+        app:bar_titleTextColor="@android:color/white"
+        app:leftText="@string/app_name"
+        app:leftTextColor="@color/colorPrimary"
+        app:rightTextColor="@color/colorPrimary"
+        app:rightText="@string/app_name" />
+
+</RelativeLayout>
